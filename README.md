@@ -30,17 +30,6 @@ LockBox is a lightweight and secure web-based application designed to help users
 
 ---
 
-## 📐 System Architecture
-
-1. User submits a form (e.g., add a new password).  
-2. JavaScript validates the input and sends it to a PHP script.  
-3. PHP sanitizes data and communicates with MySQL.  
-4. Database stores/retrieves the data.  
-5. PHP returns a response (success/error).  
-6. JavaScript updates the UI dynamically.  
-
----
-
 ## ⚡ Installation & Setup
 
 ### Prerequisites
@@ -48,7 +37,20 @@ LockBox is a lightweight and secure web-based application designed to help users
 - PHP **7.0+**  
 - MySQL **5.7+**  
 
-### Steps
-1. Clone the repository:  
-   ```bash
-   git clone https://github.com/yourusername/LockBox.git
+---
+
+## 🔒 Security Practices
+
+- Passwords are hashed using password_hash() in PHP.
+- SQL queries use prepared statements to prevent injection.
+- Input is sanitized to prevent XSS attacks.
+- HTTPS is recommended for secure client-server communication.
+
+---
+## 🌱 Future Enhancements
+
+- 🔗 Secure Password Sharing with trusted users.
+- ⏰ Password Expiry Alerts to notify users when updates are due.
+- 📱 Cross-Platform Sync (mobile app & browser extension).
+- 🗂 Tags & Categories for better organization.
+- 🛡 Breach Monitoring integration with external APIs.
