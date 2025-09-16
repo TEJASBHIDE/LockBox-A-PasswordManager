@@ -1,4 +1,4 @@
-#LockBox: A Secure Password Management System
+# LockBox: A Secure Password Management System
 1. Introduction
 1.1 Project Overview
 LockBox is a comprehensive web-based application designed to provide users with a secure and centralized solution for managing their digital passwords. This project addresses the common problem of password fatigue and the use of weak or reused credentials by offering a single, secure platform to store, organize, and access all login information. The application is built to be both mobile-friendly and intuitive, ensuring a smooth user experience across all devices.
